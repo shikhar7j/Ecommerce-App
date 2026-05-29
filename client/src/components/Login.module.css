@@ -1,0 +1,154 @@
+.loginActions button {
+    font-size: 1.2rem;
+    padding: 12px 32px;
+    margin-top: 16px;
+    background: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: background 0.2s;
+}
+
+.loginActions button:hover {
+    background: #005bb5;
+}
+.loginActions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+        width: 100%;
+}
+
+@media (max-width: 600px) {
+    .loginActions {
+        margin-top: 16px;
+        width: 100%;
+        padding: 0 8px;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    background-color: #d1d5db;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Dashboard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-top: 32px;
+    margin: 2px;
+    margin-bottom: 20px;
+}
+
+.Login{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    width: 28%;
+    margin: auto;
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .Login {
+        width: 90%;
+        min-width: unset;
+        max-width: unset;
+        height: auto;
+        padding: 16px 8px;
+        border-radius: 24px;
+    }
+}
+
+.Subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.userTypeOptions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+.userTypeCard {
+    border: 1.5px solid #d1d5db;
+    width: 92%;
+    height: 60px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    padding: 12px 18px;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: box-shadow 0.2s, border-color 0.2s, background 0.2s;
+}
+
+.userTypeCard:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+    border-color: #0073e6;
+    background: #f0f8ff;
+}
+
+.selected {
+    border: 2px solid #0073e6;
+    background: #e6f0ff;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+
+.selected {
+    border: 2px solid #83a0bc;
+    background: #cce6ff;
+    box-shadow: 0 4px 16px cornsilk
+}
+
+.loginInfo {
+    width: 92%;
+    margin-top: 8px;
+    display: flex;  
+    flex-direction: column;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1.5px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
